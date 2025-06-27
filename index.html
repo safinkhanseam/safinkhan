@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD. SAFIN KHAN - Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: #2563eb; /* Blue-600 */
+            margin: 8px auto 0;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-md py-4 sticky top-0 z-50">
+        <nav class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#hero" class="text-2xl font-bold text-blue-700 rounded-lg p-2 hover:bg-blue-50 transition duration-300">Safin Khan</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="text-gray-600 hover:text-blue-700 transition duration-300 rounded-lg p-2 hover:bg-blue-50">About</a>
+                <a href="#education" class="text-gray-600 hover:text-blue-700 transition duration-300 rounded-lg p-2 hover:bg-blue-50">Education</a>
+                <a href="#experience" class="text-gray-600 hover:text-blue-700 transition duration-300 rounded-lg p-2 hover:bg-blue-50">Experience</a>
+                <a href="#skills" class="text-gray-600 hover:text-blue-700 transition duration-300 rounded-lg p-2 hover:bg-blue-50">Skills</a>
+                <a href="#projects" class="text-gray-600 hover:text-blue-700 transition duration-300 rounded-lg p-2 hover:bg-blue-50">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-700 transition duration-300 rounded-lg p-2 hover:bg-blue-50">Contact</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-blue-700 focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-2 shadow-lg">
+            <a href="#about" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">About</a>
+            <a href="#education" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Education</a>
+            <a href="#experience" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Experience</a>
+            <a href="#skills" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Skills</a>
+            <a href="#projects" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Projects</a>
+            <a href="#contact" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="relative bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 md:py-32 overflow-hidden rounded-b-xl shadow-xl">
+            <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-8">
+                <div class="text-center md:text-left flex-1 animate-fade-in-up">
+                    <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">MD. SAFIN KHAN</h1>
+                    <p class="text-xl md:text-2xl mb-6">Passionate Learner | Developer | Volunteer</p>
+                    <div class="space-x-4">
+                        <a href="#projects" class="inline-block bg-white text-blue-700 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-100 transform hover:scale-105 transition duration-300">View Projects</a>
+                        <a href="#contact" class="inline-block border-2 border-white text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-white hover:text-blue-700 transform hover:scale-105 transition duration-300">Contact Me</a>
+                    </div>
+                </div>
+                <div class="flex-1 flex justify-center md:justify-end animate-fade-in-right">
+                    <img src="C:\Users\USER\Downloads\WhatsApp Image 2025-06-26 at 20.09.26 (1).jpeg" alt="MD. SAFIN KHAN" class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white shadow-2xl">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-10 section-title">About Me</h2>
+                <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                    <p class="text-lg leading-relaxed text-gray-700 mb-4">
+                        I am MD. Safin Khan, a highly motivated and adaptable individual with a strong passion for learning and technology.
+                        My academic background in Science (Higher Mathematics, Physics, Chemistry, Biology) has provided me with a solid analytical foundation.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 mb-4">
+                        I possess a diverse skill set encompassing programming (Python, C++), data analysis, and design. I'm always eager to take on new challenges and contribute effectively to team environments.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700">
+                        My experience ranges from teaching and virtual volunteering for various organizations (Be My Eyes, United Nations, Better Education and Agriculture, Precious Pairs Inc, Rios Foundation Inc, Life Target Incorporate) to developing several applications, showcasing my commitment to both personal and professional growth.
+                    </p>
+                    <div class="mt-8 text-center">
+                        <a href="#contact" class="inline-flex items-center bg-blue-600 text-white font-semibold px-8 py-4 rounded-full shadow-md hover:bg-blue-700 transform hover:scale-105 transition duration-300">
+                            Let's Connect <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-10 section-title">Education</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <!-- HSC -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Higher Secondary School Certificate (HSC)</h3>
+                        <p class="text-gray-600">Shaheed Shahed Hazari College, Tangail, Dhaka, Bangladesh</p>
+                        <p class="text-gray-500 text-sm mt-1">2022-2023</p>
+                        <ul class="list-disc list-inside text-gray-700 mt-4 space-y-1">
+                            <li>GPA: 5 out of 5</li>
+                            <li>Average: 87%</li>
+                            <li>Relevant Coursework: Science (Higher Mathematics, Physics, Chemistry, Biology)</li>
+                        </ul>
+                    </div>
+                    <!-- SSC -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Secondary School Certificate (SSC)</h3>
+                        <p class="text-gray-600">B. S. Bisweswari High School, Tangail, Dhaka, Bangladesh</p>
+                        <p class="text-gray-500 text-sm mt-1">Completion Year: Not specified, but likely prior to HSC</p>
+                        <ul class="list-disc list-inside text-gray-700 mt-4 space-y-1">
+                            <li>GPA: 4.61 out of 5</li>
+                            <li>Average: 75%</li>
+                            <li>Relevant Coursework: Science (Higher Mathematics, Physics, Chemistry, Biology)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-12 text-center">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Certifications</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                        <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-start space-x-3">
+                            <i class="fas fa-certificate text-blue-500 text-xl mt-1"></i>
+                            <div>
+                                <p class="font-semibold text-gray-800">Harvard Online: "CS50's Introduction to Programming with Python"</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-start space-x-3">
+                            <i class="fas fa-certificate text-blue-500 text-xl mt-1"></i>
+                            <div>
+                                <p class="font-semibold text-gray-800">LinkedIn Learning: "Productivity Hacks to Reimage Your Workday and Career" (HRCI.org Certified)</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-start space-x-3">
+                            <i class="fas fa-certificate text-blue-500 text-xl mt-1"></i>
+                            <div>
+                                <p class="font-semibold text-gray-800">Free Code Camp: "Data Analysis With Python"</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-start space-x-3">
+                            <i class="fas fa-certificate text-blue-500 text-xl mt-1"></i>
+                            <div>
+                                <p class="font-semibold text-gray-800">Free Code Camp: "Machine Learning with Python"</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-start space-x-3">
+                            <i class="fas fa-certificate text-blue-500 text-xl mt-1"></i>
+                            <div>
+                                <p class="font-semibold text-gray-800">Free Code Camp: "College Algebra with Python"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-10 section-title">Experience & Volunteering</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                    <!-- Assistant Teacher -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Assistant Teacher</h3>
+                        <p class="text-gray-600">Three Star Kindergarten</p>
+                        <p class="text-gray-500 text-sm mt-1">November 2023 - December 2021 (2022-2023)</p>
+                        <ul class="list-disc list-inside text-gray-700 mt-4 space-y-1">
+                            <li>Taught science and mathematics to primary school students.</li>
+                            <li>Developed and implemented engaging lesson plans and activities.</li>
+                            <li>Assisted with classroom management and student supervision.</li>
+                        </ul>
+                        <p class="font-semibold mt-4">Skills Gained:</p>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Teaching and instructional skills</li>
+                            <li>Curriculum development</li>
+                            <li>Classroom management and student supervision</li>
+                            <li>Patience and understanding</li>
+                        </ul>
+                    </div>
+
+                    <!-- Be My Eyes -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Virtual Volunteer</h3>
+                        <p class="text-gray-600">Be My Eyes</p>
+                        <p class="text-gray-500 text-sm mt-1">2022-2023</p>
+                        <ul class="list-disc list-inside text-gray-700 mt-4 space-y-1">
+                            <li>Provided assistance to visually impaired individuals by reading labels, describing objects, and navigating surroundings.</li>
+                        </ul>
+                        <p class="font-semibold mt-4">Skills Gained:</p>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Empathy and compassion</li>
+                            <li>Effective communication and listening skills</li>
+                            <li>Patience and understanding</li>
+                            <li>Ability to think quickly and adapt to different situations</li>
+                            <li>Gain experience working with people with disabilities</li>
+                        </ul>
+                    </div>
+
+                    <!-- United Nations -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Virtual Volunteer</h3>
+                        <p class="text-gray-600">United Nations</p>
+                        <p class="text-gray-500 text-sm mt-1">2024-2024</p>
+                        <ul class="list-disc list-inside text-gray-700 mt-4 space-y-1">
+                            <li>Organized and analyzed large datasets for research projects.</li>
+                            <li>Identified and corrected errors or inconsistencies in data to ensure accuracy and reliability.</li>
+                            <li>Structured and organized data into a logical format for analysis, such as spreadsheets or databases.</li>
+                            <li>Used statistical methods and tools to extract meaningful insights and patterns from data.</li>
+                        </ul>
+                        <p class="font-semibold mt-4">Skills Gained:</p>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Data entry and analysis skills</li>
+                            <li>Proficiency in data analysis software (Microsoft Excel, Tableau, R, Python)</li>
+                            <li>Attention to detail and accuracy</li>
+                            <li>Problem-solving and critical thinking skills</li>
+                        </ul>
+                    </div>
+
+                    <!-- Better Education and Agriculture -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Virtual English Tutor</h3>
+                        <p class="text-gray-600">Better Education and Agriculture</p>
+                        <p class="text-gray-500 text-sm mt-1">2024-2024</p>
+                        <ul class="list-disc list-inside text-gray-700 mt-4 space-y-1">
+                            <li>Provided one-on-one English lessons to Vietnamese children and adults.</li>
+                            <li>Collaborated with the project team to develop engaging and effective English language learning materials.</li>
+                            <li>Participated in virtual events and activities to raise awareness about the importance of English education.</li>
+                        </ul>
+                        <p class="font-semibold mt-4">Skills Gained:</p>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Teaching and instructional skills</li>
+                            <li>Curriculum development</li>
+                            <li>Online communication and collaboration</li>
+                            <li>Cultural awareness and sensitivity</li>
+                        </ul>
+                    </div>
+
+                    <!-- Precious Pairs Inc -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Virtual Email Manager</h3>
+                        <p class="text-gray-600">Precious Pairs Inc</p>
+                        <p class="text-gray-500 text-sm mt-1">2024-2024</p>
+                        <ul class="list-disc list-inside text-gray-700 mt-4 space-y-1">
+                            <li>Managed and maintained the organization's email accounts and systems.</li>
+                            <li>Created and sent email newsletters and campaigns to subscribers.</li>
+                            <li>Responded to email inquiries and provided customer support.</li>
+                        </ul>
+                        <p class="font-semibold mt-4">Skills Gained:</p>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Email management and administration</li>
+                            <li>Customer service and communication skills</li>
+                            <li>Basic knowledge of email marketing and automation</li>
+                        </ul>
+                    </div>
+
+                    <!-- Rios Foundation Inc -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Virtual Grant Writer</h3>
+                        <p class="text-gray-600">Rios Foundation Inc</p>
+                        <p class="text-gray-500 text-sm mt-1">2024-2024</p>
+                        <ul class="list-disc list-inside text-gray-700 mt-4 space-y-1">
+                            <li>Researched and wrote grant proposals to fund drinking water quality projects.</li>
+                            <li>Conducted research on drinking water quality issues and potential solutions.</li>
+                            <li>Collaborated with project teams to develop grant proposals that aligned with the foundation's goals.</li>
+                        </ul>
+                        <p class="font-semibold mt-4">Skills Gained:</p>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Grant writing and research skills</li>
+                            <li>Knowledge of drinking water quality issues and solutions</li>
+                            <li>Ability to collaborate with a team to achieve common goals</li>
+                        </ul>
+                    </div>
+
+                    <!-- Life Target Incorporate -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Volunteer Video Editor</h3>
+                        <p class="text-gray-600">Life Target Incorporate</p>
+                        <p class="text-gray-500 text-sm mt-1">2024-2024</p>
+                        <ul class="list-disc list-inside text-gray-700 mt-4 space-y-1">
+                            <li>Edited 21 videos (10x90 seconds and 11x3 minutes) for a violence prevention campaign.</li>
+                            <li>Ensured consistent formatting, integrated links, clips, and images, and maintained a cohesive visual style.</li>
+                            <li>Contributed to raising awareness about violence prevention and promoting positive social change.</li>
+                        </ul>
+                        <p class="font-semibold mt-4">Skills Gained:</p>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Proficiency in video editing software (Adobe Premiere Pro, Capcut)</li>
+                            <li>Time management and organization skills</li>
+                            <li>Ability to work efficiently under tight deadlines</li>
+                            <li>Collaboration and teamwork</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-10 section-title">Skills</h2>
+                <div class="max-w-4xl mx-auto">
+                    <div class="mb-10">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Technical Skills</h3>
+                        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-desktop text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Computer Proficiency</span>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-code text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Programming (Python, C++)</span>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-chart-bar text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Data Analysis</span>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-paint-brush text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Design (Photoshop, Illustrator)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-10">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Academic Skills</h3>
+                        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-brain text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Critical Thinking</span>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-lightbulb text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Problem-Solving</span>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-search text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Research & Analysis</span>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-clock text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Time Management</span>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-comments text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Writing & Communication</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Soft Skills</h3>
+                        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-users text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Leadership</span>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-handshake text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Teamwork</span>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-sync-alt text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Adaptability</span>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-user-friends text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Interpersonal Skills</span>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-3">
+                                <i class="fas fa-globe text-blue-500 text-xl"></i>
+                                <span class="font-semibold text-gray-800">Cultural Awareness</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-10 section-title">Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <!-- Tic-Tac-Toe -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Classic Tic-Tac-Toe Game</h3>
+                        <p class="text-gray-700 mb-4">Developed a classic Tic-Tac-Toe game where players can compete against each other or the computer.</p>
+                        <div class="text-right">
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold text-sm">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- QR Code Generator -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">QR Code Generator</h3>
+                        <p class="text-gray-700 mb-4">Developed a QR Code Generator where users can create QR codes of any websites.</p>
+                        <div class="text-right">
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold text-sm">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Video to Audio Converter -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Video to Audio Converter</h3>
+                        <p class="text-gray-700 mb-4">Developed a tool to convert video files to audio format.</p>
+                        <div class="text-right">
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold text-sm">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Bill Management Apps -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Bill Management Apps</h3>
+                        <p class="text-gray-700 mb-4">Developed applications for managing bills and expenses efficiently.</p>
+                        <div class="text-right">
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold text-sm">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- PDF Protected Tools -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">PDF Protected Tools</h3>
+                        <p class="text-gray-700 mb-4">Developed tools for protecting PDF documents.</p>
+                        <div class="text-right">
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold text-sm">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Books and Story App -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Books and Story App (In Progress)</h3>
+                        <p class="text-gray-700 mb-4">Currently working on an app to store books and stories, allowing users to publish their own novels, books, and publications for free and generate revenue.</p>
+                        <div class="text-right">
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold text-sm">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-10 section-title">Contact Me</h2>
+                <div class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                    <p class="text-lg text-gray-700 mb-6 text-center">I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-3 text-gray-700">
+                            <i class="fas fa-map-marker-alt text-blue-600 text-xl"></i>
+                            <span>Fulki Paschim Para, Fulki Jhonjhonia-1900, Basail, Tangail, Dhaka, Bangladesh.</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-gray-700">
+                            <i class="fas fa-phone-alt text-blue-600 text-xl"></i>
+                            <span>+8801775050770</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-gray-700">
+                            <i class="fas fa-envelope text-blue-600 text-xl"></i>
+                            <a href="mailto:safinkhan.seam.2005@gmail.com" class="hover:underline">safinkhan.seam.2005@gmail.com</a>
+                        </div>
+                    </div>
+                    <form class="mt-8 space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                            <input type="text" id="name" name="name" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <input type="email" id="email" name="email" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Your Email">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                            <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-lg font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-300 transform hover:scale-105">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12 rounded-t-xl shadow-lg">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-lg mb-4">&copy; 2025 MD. SAFIN KHAN. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 text-2xl">
+                <a href="mailto:safinkhan.seam.2005@gmail.com" class="text-white hover:text-blue-400 transition duration-300"><i class="fas fa-envelope"></i></a>
+                <!-- Replace with actual social media links if available -->
+                <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+
+                // Close mobile menu if open
+                const mobileMenu = document.getElementById('mobile-menu');
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Placeholder for image, replace with actual image later
+        // The user provided image: WhatsApp Image 2025-06-26 at 20.09.26 (1).jpeg
+        // For a real deployment, you would upload this image to a web server
+        // and link it here. For now, I've used a placeholder.
+        const heroImage = document.querySelector('#hero img');
+        if (heroImage) {
+            // Replace this with your actual image URL
+            // heroImage.src = 'your-image-url.jpeg';
+        }
+    </script>
+</body>
+</html>
